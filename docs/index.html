@@ -1,1 +1,127 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pratham Gandhi's links</title>
+  <style>
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+
+    .name {
+      color: ##27234;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons a {
+      color: #272343;
+      text-decoration: none
+    }
+
+    .link {
+      background-color: #ffd803;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .link a {
+      color: #272343;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="items">
+    <div class="banner">
+      <img src="profile-pic-square.jpg" alt="Pratham Gandhi headshot" class="banner-image">
+    </div>
+
+    <div class="name">
+      Pratham Gandhi
+    </div>
+
+    <div class="social-icons">
+      <a href="https://github.com/prathgan" target="_blank">
+        GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/prathamgandhi/" target="_blank">
+        LinkedIn
+      </a>
+
+      <a href="https://www.instagram.com/pratham_gandhii/" target="_blank">
+        Instagram
+      </a>
+
+      <a href="https://twitter.com/prathgan" target="_blank">
+        Twitter
+      </a>
+    </div>
+
+    <div class="link">
+      <img class="thumbnail"
+        src="data:image/png;base64,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">
+
+      <a target="_blank" href="https://uchicagoktp.com">UChicago Kappa Theta Pi</a>
+    </div>
+
+    <div class="link">
+      <img class="thumbnail" src="https://static.wixstatic.com/media/10b290_d780737ad88f4fb6a2763eb97ecaf9af~mv2.png/v1/fit/w_2500,h_1330,al_c/10b290_d780737ad88f4fb6a2763eb97ecaf9af~mv2.png">
+
+      <a target="_blank" href="https://www.paretosolutions.info">UChicago Pareto Solutions Consulting</a>
+    </div>
+
+    <div class="link">
+      <img class="thumbnail"
+        src="data:image/jpeg;base64,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">
+
+      <a target="_blank" href="https://www.prismconsultinggroup.org">
+        UChicago Prism Consulting Group</a>
+    </div>
+  </div>
+</body>
+
+</html>
